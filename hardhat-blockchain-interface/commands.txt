@@ -1,0 +1,7 @@
+npm init -y
+npx hardhat --init
+npm install --save-dev hardhat
+npx hardhat compile
+npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ignition/modules/Counter.ts --network localhost
